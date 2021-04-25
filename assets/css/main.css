@@ -4,8 +4,8 @@
 * Licensed under Attribution 3.0 Unported (CC BY 3.0) (https://sharebootstrap.com/licence/)
 */
 /*
-* Orson http://en.orson.io , autreplanete http://www.autreplanete.com/ 
-*  
+* Orson http://en.orson.io , autreplanete http://www.autreplanete.com/
+*
 **/
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -494,6 +494,7 @@ h6, .h6 {
   line-height: 1.1;
 }
 
+
 /* line 34, node_modules/bootstrap/scss/_type.scss */
 .display-2 {
   font-size: 5.5rem;
@@ -506,6 +507,7 @@ h6, .h6 {
   font-size: 4.5rem;
   font-weight: 300;
   line-height: 1.1;
+
 }
 
 /* line 44, node_modules/bootstrap/scss/_type.scss */
@@ -12630,13 +12632,13 @@ a:hover {
 
 /**
  * Basic typography style for copy text
- A solution for this problem is percentage. Usually default font-size of the browser is 16px. 
- Setting font-size: 100% will make 1rem = 16px. But it will make calculations a little difficult. 
+ A solution for this problem is percentage. Usually default font-size of the browser is 16px.
+ Setting font-size: 100% will make 1rem = 16px. But it will make calculations a little difficult.
  A better way is to set font-size: 62.5%. Because 62.5% of 16px is 10px. Which makes 1rem = 10px.
  CALCULATION: Element font size in rem x 16px;
  */
 /**
-Responsive font styles 
+Responsive font styles
 **/
 @media (max-width: 1200px) {
   /* line 16, src/assets/scss/base/_typography.scss */
